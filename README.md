@@ -2,13 +2,21 @@
 **ti**ny**T**ele**TY**pe
 
 ⁍ Peer to Peer chat with iroh-gossip
+
 ⁍ Uses QUIC protocol, TLS 1.3
+
 ⁍ End to End encrypted chat
+
 ⁍ E2E file transfer planned
+
 ⁍ MacOS and iOS native apps
+
 ⁍ Web version planned
+
 ⁍ Data between users is direct
+
 ⁍ Global usernames with identiTTY server
+
 
 ## Architecture
 
