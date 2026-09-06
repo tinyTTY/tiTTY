@@ -20,12 +20,17 @@
 
 ## Architecture
 
-```python
 #### Chat
-SwiftUI -> App Events -> FFI Bridge -> Rust Runtime -> Iroh Gossip
 
-#### IdentiTTY
-SwiftUI <- GraphQL -> centralized username registration (identiTTY) backed by private key challenge
-private key stored on device is the guarantor for API usage which involves username validation
+```python
+SwiftUI -> App Events -> FFI Bridge -> Rust Runtime -> Iroh Gossip
 ```
+#### IdentiTTY
+
+```python
+SwiftUI <- GraphQL -> identiTTY server
+```
+The identiTTY server is a centralized username registration service backed by private key challenge
+private key stored on device is the guarantor for API usage which involves username validation
+
 
